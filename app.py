@@ -1,4 +1,12 @@
 import streamlit as st
+#Importamos librerias para Ciencia de Datos y Machine Learning
+import numpy as np
+import pandas as pd
+#Importamos librerias adicionales
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.spatial.distance import euclidean
+
 
 st.title("", anchor=None)
 
@@ -256,15 +264,6 @@ st.write(' ## Formulario de Google (Preprocesamiento)')
 st.write(' In[ ]: Importamos librerías')
 
 
-#Importamos librerias para Ciencia de Datos y Machine Learning
-import numpy as np
-import pandas as pd
-#Importamos librerias adicionales
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.spatial.distance import euclidean
-
-
 st.write(' ### Importamos el archivo .csv')
 
 st.write(' In[ ]: lugares_T')
@@ -404,20 +403,20 @@ file.T
 
 #df = pd.DataFrame(file.T,columns = correos)
 df = pd.DataFrame(file.T,columns = correos)
-
+df.drop_duplicates(keep='last')
 
 # In[ ]:
 
 
 m_corr_pandas = df.corr()
-m_corr_pandas
+m_corr_pandas.drop_duplicates(keep='last')
 
 
 # In[ ]:
 
 
 m_corr_d_pandas = np.round(m_corr_pandas, decimals = 4)
-m_corr_d_pandas
+m_corr_d_pandas.drop_duplicates(keep='last')
 
 
 # ## Gráfica de Calor
@@ -526,7 +525,7 @@ for i in range(len(email)):
 
 smld = np.array(sml).reshape(len(email),len(email))
 matrix = pd.DataFrame(smld,email,email)
-matrix
+matrix.drop_duplicates(keep='last')
 
 
 st.write(' ### Gráfica de Calor')
