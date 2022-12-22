@@ -1,67 +1,57 @@
 import streamlit as st
 
-st.title("Presentación TIF", anchor=None)
+st.title("", anchor=None)
 
 #!/usr/bin/env python
 # coding: utf-8
 
 st.write('![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
-st.write('<center><font face = "MingLiU" size = 5 color = black><b> UNIVERSIDAD NACIONAL DE SAN AGUSTÍN DE AREQUIPA </b></font><br/>')
-st.write('<center><font face = "MingLiU" size = 3.5 color = gray> FACULTAD DE PRODUCCIÓN Y SERVICIOS </font><br/>')
-st.write('<center><font face = "MingLiU" size = 4 color = #0a0303><b> ESCUELA PROFESIONAL DE INGENIERÍA EN TELECOMUNICACIONES </b></font><br/>')
-# 
-# 
-st.write('<center><img src="https://empleoz.com/media/logo/592546c81ca7507c29e72496.png"></center><br/>')
-#     
-# 
-st.write('<font face = "MingLiU" size = 5 color = black><b> Ingeniero Renzo Bolivar - Docente DAIE </b></font><br/>')
-st.write('<center><font face = "MingLiU" size = 5 color = #0a0303><b> Curso : Computación 1 </b></font><br/>')
+st.components.v1.html('<center><font face = "MingLiU" size = 5 color = black><b> UNIVERSIDAD NACIONAL DE SAN AGUSTÍN DE AREQUIPA </b></font><br/></center>')
+st.components.v1.html('<center><font face = "MingLiU" size = 3.5 color = gray> FACULTAD DE PRODUCCIÓN Y SERVICIOS </font>')
+st.components.v1.html('<center><font face = "MingLiU" size = 4 color = #0a0303><b> ESCUELA PROFESIONAL DE INGENIERÍA EN TELECOMUNICACIONES </b></font>')
+st.components.v1.html('<center><img src="https://empleoz.com/media/logo/592546c81ca7507c29e72496.png"></center>')
+st.components.v1.html('<font face = "MingLiU" size = 5 color = black><b> Ingeniero Renzo Bolivar - Docente DAIE </b></font>')
+st.components.v1.html('<center><font face = "MingLiU" size = 5 color = #0a0303><b> Curso : Computación 1 </b></font>')
 
 st.write('![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
-st.write(' <center><font face = "MingLiU" size = 5 color = #0a0303><b> GRUPO D - Nº 2 </b></font><br/></center> ')
-# 
-st.write(' <center><font face = "MingLiU" size = 5 color = #0a0303><b>Alumnos: </b></font><br/></center>')
-# 
-st.write('<font face = "MingLiU" size = 3 color = #0a0303> Arnold Jhony Jara Esteban </font><br/></center> ')
-st.write(' <center><font face = "MingLiU" size = 3 color = #0a0303> Maycol Denne Ccolque Hilario </font><br/></center>')
-st.write(' <center><font face = "MingLiU" size = 3 color = #0a0303> Diego Sanguinetti Rodríguez </font><br/></center>')
-st.write(' <center><font face = "MingLiU" size = 3 color = #0a0303> Jared Valenzuela Menendez </font><br/></center>')
-st.write('<center><font face = "MingLiU" size = 3 color = #0a0303> Brahian David Chipa Tejada </font><br/></center>')
-st.write('<center><font face = "MingLiU" size = 3 color = #0a0303> Kusi Lucero Valero Arizabal </font><br/></center>')
-st.write(' <center><font face = "MingLiU" size = 3 color = #0a0303> Mayta Llacma Delfor Paul </font><br/></center>')
-# 
-# 
-# 
-# 
+st.components.v1.html(' <center><font face = "MingLiU" size = 5 color = #0a0303><b> GRUPO D - Nº 2 </b></font><br/></center> ')
+st.components.v1.html(' <center><font face = "MingLiU" size = 5 color = #0a0303><b>Alumnos: </b></font><br/></center>')
+st.components.v1.html('<font face = "MingLiU" size = 3 color = #0a0303> Arnold Jhony Jara Esteban </font><br/></center> ')
+st.components.v1.html(' <center><font face = "MingLiU" size = 3 color = #0a0303> Maycol Denne Ccolque Hilario </font><br/></center>')
+st.components.v1.html(' <center><font face = "MingLiU" size = 3 color = #0a0303> Diego Sanguinetti Rodríguez </font><br/></center>')
+st.components.v1.html(' <center><font face = "MingLiU" size = 3 color = #0a0303> Jared Valenzuela Menendez </font><br/></center>')
+st.components.v1.html('<center><font face = "MingLiU" size = 3 color = #0a0303> Brahian David Chipa Tejada </font><br/></center>')
+st.components.v1.html('<center><font face = "MingLiU" size = 3 color = #0a0303> Kusi Lucero Valero Arizabal </font><br/></center>')
+st.components.v1.html(' <center><font face = "MingLiU" size = 3 color = #0a0303> Mayta Llacma Delfor Paul </font><br/></center>')
 
 st.write(' ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
-st.write(' <center> <h1>INVESTIGACIÓN FORMATIVA</h1> </center>  <center> <h1>PROYECTO FINAL</h1> </center>  <center> <h1>PYTHON - Inteligencia Artificial</h1> </center> ')
+st.components.v1.html(' <center> <h1>INVESTIGACIÓN FORMATIVA</h1> </center>  <center> <h1>PROYECTO FINAL</h1> </center>  <center> <h1>PYTHON - Inteligencia Artificial</h1> </center> ')
 
 st.write(' ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
 st.write(' ## OBJETIVOS')
 
 st.write(' Los Objetivos de la investigación formativa son:')
-# 
+
 st.write(' **Competencia Comunicativa** Presentación de sus resultados con lenguaje de programación Python utilizando los archivos Jupyter Notebook.')
 st.write(' - **Competencia Aprendizaje**: con las aptitudes en **Descomposición** (desarticular el problema en pequeñas series de soluciones), **Reconocimiento de Patrones** (encontrar simulitud al momento de resolver problemas), **Abstracción** (omitir información relevante), **Algoritmos** (pasos para resolución de un problema).')
 st.write(' - **Competencia de Trabajo en Equipo**: exige habilidades individuales y grupales orientadas a la cooperación, planificación, coordinación, asignación de tareas, cumplimiento de tareas y solución de conflictos en pro de un trabajo colectivo, utilizando los archivos Jupyter Notebook los cuales se sincronizan en el servidor Gitlab con comandos Git.')
 
 st.write(' ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
-st.write(' <center> <h1>Aplicación en IA</h1> </center> ')
-st.write(' <center> <h1>Sistema Recomendador</h1> </center> ')
+st.components.v1.html(' <center> <h1>Aplicación en IA</h1> </center> ')
+st.components.v1.html(' <center> <h1>Sistema Recomendador</h1> </center> ')
 
 st.write(' Un sistema de recomendación es una herramienta que establece un conjunto de criterios y valoraciones sobre los datos de los usuarios para realizar predicciones sobre recomendaciones de elementos que puedan ser de utilidad o valor para el usuario. Estos sistemas seleccionan datos proporcionados por el usuario de forma directa o indirecta, y procede a analizar y procesar información del historial del usuario para transformar estos datos en conocimiento de recomendación.')
 
-st.write(' <div class="alert alert-info">La <strong>compatibilidad o similitud</strong> será encontrada con el algoritmo de <strong>Correlación de Pearson</strong> y será verificada con la <strong>La Matrix de Correlación de Pearson con una librería de Python y utilizando una función personal</strong>  </div>')
+st.components.v1.html(' <div class="alert alert-info">La <strong>compatibilidad o similitud</strong> será encontrada con el algoritmo de <strong>Correlación de Pearson</strong> y será verificada con la <strong>La Matrix de Correlación de Pearson con una librería de Python y utilizando una función personal</strong>  </div>')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
-st.write(' <center> <h1>Base Teórica</h1> </center> ')
+st.components.v1.html(' <center> <h1>Base Teórica</h1> </center> ')
 
 st.write(' ## Análisis de Correlación')
 
@@ -69,7 +59,7 @@ st.write(' El **análisis de correlación** es el primer paso para construir mod
 
 st.write(' El análisis de correlación consiste en un procedimiento estadístico para determinar si dos variables están relacionadas o no. El resultado del análisis es un coeficiente de correlación que puede tomar valores entre -1 y +1. El signo indica el tipo de correlación entre las dos variables . Un signo positivo indica que existe una relación positiva entre las dos variables; es decir, cuando la magnitud de una incrementa, la otra también. Un signo negativo indica que existe una relación negativa entre las dos variables. Mientras los valores de una incrementan, los de la segunda variable disminuyen. Si dos variables son independientes, el coeficiente de correlación es de magnitud cero . La fuerza de la relación lineal incrementa a medida que el coeficiente de correlación se aproxima a -1 o a +1.')
 
-st.write(' <div class="alert alert-info">  A menudo nos interesa observar y medir la <strong>relación entre 2 variables numéricas</strong> mediante el análisis de correlación. <br> Se trata de una de las *técnicas más habituales en análisis de datos* y el primer paso necesario antes de construir cualquier <strong>modelo explicativo o predictivo más complejo</strong>.<br> Para poder tener el  Datset hay que recolectar información a travez de encuentas.</div>')
+st.components.v1.html(' <div class="alert alert-info">  A menudo nos interesa observar y medir la <strong>relación entre 2 variables numéricas</strong> mediante el análisis de correlación. <br> Se trata de una de las *técnicas más habituales en análisis de datos* y el primer paso necesario antes de construir cualquier <strong>modelo explicativo o predictivo más complejo</strong>.<br> Para poder tener el  Datset hay que recolectar información a travez de encuentas.</div>')
 
 st.write(' ### ¿Qué es la correlación?')
 
@@ -94,7 +84,7 @@ st.write(' La correlación directa se da cuando al aumentar una de las variables
 st.write(' La recta correspondiente a la nube de puntos de la distribución es una recta creciente')
 # 
 # 
-st.write(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion.gif"></center><br/>')
+st.components.v1.html(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion.gif"></center><br/>')
 # 
 st.write(' 2. **Correlación inversa**')
 # 
@@ -104,7 +94,7 @@ st.write(' La correlación inversa se da cuando al aumentar una de las variables
 st.write(' La recta correspondiente a la nube de puntos de la distribución es una recta decreciente.')
 # 
 # 
-st.write(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion-2.gif"></center><br/>')
+st.components.v1.html(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion-2.gif"></center><br/>')
 # 
 st.write(' 3. **Correlación nula**')
 # 
@@ -114,7 +104,7 @@ st.write(' La correlación nula se da cuando no hay dependencia de ningún tipo 
 st.write(' En este caso se dice que las variables son incorreladas y la nube de puntos tiene una forma redondeada.')
 # 
 # 
-st.write(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion-3.gif"></center><br/>')
+st.components.v1.html(' <center><img src="https://www.superprof.es/apuntes/wp-content/uploads/2019/05/estadistica-correlacion-3.gif"></center><br/>')
 # 
 # 
 
@@ -124,7 +114,7 @@ st.write(' Tenemos el coeficiente de **correlación lineal de Pearson** que se *
 
 st.write(' ### Correlación de Pearson')
 
-st.write(' <div class="alert alert-info"> El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas. </div>')
+st.components.v1.html(' <div class="alert alert-info"> El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas. </div>')
 
 st.write(' Es el método de correlación más utilizado, pero asume que:')
 # 
@@ -147,21 +137,19 @@ st.write('  - Un valor menor que 0 indica que existe una correlación negativa, 
 st.write('  - Un valor mayor que 0 indica que existe una correlación positiva. En este caso las variables estarían asociadas en sentido directo. Cuanto más cerca de +1, más alta es su asociación. Un valor exacto de +1 indicaría una relación lineal positiva perfecta.')
 st.write('  - Finalmente, una correlación de 0, o próxima a 0, indica que no hay relación lineal entre las dos variables.')
 
-# 
-st.write(' <center><img src="https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" width="700" height="400"></center>')
-# 
-# 
-# 
 
-st.write(' <center> <h3>Fórmula Coeficiente de Correlación de Pearson</h3> </center>  ')
-st.write(' <center> <h3> </h3> </center> ')
-st.write(' $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$')
+st.components.v1.html(' <center><img src="https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" width="700" height="400"></center>')
+
+
+st.components.v1.html(' <center> <h3>Fórmula Coeficiente de Correlación de Pearson</h3> </center>  ')
+st.components.v1.html(' <center> <h3> </h3> </center> ')
+st.latex(' r(x,y)=frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}')
 
 st.write(' **Distancia Euclidiana**: La distancia euclidiana es la generalización del __`teorema de Pitágoras`__.')
-# 
+
 st.write(' Las herramientas de distancia euclidiana describen la relación de cada celda con un origen o un conjunto de orígenes basándose en la distancia de la línea recta. Existen tres herramientas euclidianas: Distancia euclidiana proporciona la distancia desde cada celda en el ráster hasta el origen más cercano.')
 
-st.write(' $$d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$')
+st.latex(' d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}')
 
 st.write(' ![imagen](https://www.researchgate.net/profile/Rodrigo-Salvador-2/publication/341621890/figure/fig2/AS:895066797273100@1590411962806/Figura-2-Distancia-euclidiana_Q320.jpg)')
 
@@ -169,7 +157,7 @@ st.write(' **Regresión Lineal**: La regresión lineal se usa para encontrar una
 
 st.write(' ![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png)')
 
-st.write(' <div class="alert alert-info"> Los datos presentados no necesariamente se asemejan a la gráfica </div>')
+st.components.v1.html(' <div class="alert alert-info"> Los datos presentados no necesariamente se asemejan a la gráfica </div>')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
@@ -222,20 +210,20 @@ st.write(' Un gráfico de calor se usa para visualizar la relación numérica ex
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
-st.write(' <center> <h1>Propuesta</h1> </center> ')
+st.components.v1.html(' <center> <h1>Propuesta</h1> </center> ')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
 st.write(' ## **1.- Dataset**')
 
-st.write(' <div class="alert alert-info">Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.</div>')
+st.components.v1.html(' <div class="alert alert-info">Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.</div>')
 
 st.write(' #### Encuesta ejemplo:')
 
 st.write(' La encuesta la realizamos en Google-Form donde se solicitara escoger entre Lugares donde viajar')
 st.write(' - Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)')
 
-st.write(' <center><img src="https://delighted.com/wp-content/uploads/2022/07/likert-scale-2022-07-feat-1.png" width="290" height="390"></center>')
+st.components.v1.html(' <center><img src="https://delighted.com/wp-content/uploads/2022/07/likert-scale-2022-07-feat-1.png" width="290" height="390"></center>')
 
 st.write(' ### Formulario de Google (Preguntas)')
 
@@ -482,7 +470,7 @@ st.write(' 2.-  dvillagrac@unsa.edu.pe y floresgarnicaedwinmaycol@gmail.com obti
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
-st.write(' <center> <h1>Validación</h1> </center> ')
+st.components.v1.html(' <center> <h1>Validación</h1> </center> ')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
@@ -504,7 +492,7 @@ print(email)
 #data
 
 
-st.write(' $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$')
+st.latex(' r(x,y)=frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}')
 
 # In[ ]:
 
@@ -595,14 +583,7 @@ st.write(' <center> <h1>Conclusiones</h1> </center> ')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
-st.write('  <div class="alert alert-info">')
-#     
-st.write('    - ¿Se valido o no los resultados?')
-st.write('    - Los resultados Validados son:')
-st.write('   - ¿Es efectivo el metodo de correlación de pearson?')
-st.write('    - Correlación de Pearson y Regresión Lineal, ¿cual es su relación?')
-#     
-st.write('  </div>')
+st.components.v1.html('  <div class="alert alert-info">- ¿Se valido o no los resultados?<br>- Los resultados Validados son:<br>- ¿Es efectivo el metodo de correlación de pearson?<br>- Correlación de Pearson y Regresión Lineal, ¿cual es su relación?</div>')
 
 st.write(' **¿Se valido o no los resultados?**')
 # 
@@ -626,7 +607,7 @@ st.write(' **Correlación de Pearson y Regresión Lineal, ¿cual es su relación
 # 
 st.write(' > La correlación cuantifica como de relacionadas están dos variables, mientras que la regresión lineal consiste en generar una ecuación (modelo) que, basándose en la relación existente entre ambas variables, permita predecir el valor de una a partir de la otra.')
 
-st.write(' <center><img src="https://estadisticaitm.github.io/reg_files/figure-html/unnamed-chunk-2-1.png" width="290" height="390"></center>')
+st.components.v1.html(' <center><img src="https://estadisticaitm.github.io/reg_files/figure-html/unnamed-chunk-2-1.png" width="290" height="390"></center>')
 
 st.write(' ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)')
 
